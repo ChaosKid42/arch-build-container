@@ -8,5 +8,6 @@ git config --global user.signingkey ~/.ssh/id_rsa
 git config --global commit.gpgsign true
 git config --global gpg.ssh.allowedSignersFile ~/.ssh/allowed_signers
 git config --global init.defaultBranch main
+export EDITOR=vim
 
 exec "$@"
